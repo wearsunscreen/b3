@@ -5,13 +5,13 @@ import { getAuth } from 'firebase/auth'
 export default defineNuxtPlugin(() => {
 
   const firebaseConfig = {
-    apiKey: "AIzaSyCllRBRUnGltQKqMqd6n6ht0kO2KLj-_4g",
-    authDomain: "bingeables2.firebaseapp.com",
-    projectId: "bingeables2",
-    storageBucket: "bingeables2.appspot.com",
-    messagingSenderId: "894440570921",
-    appId: "1:894440570921:web:0d82f440dc076fcbea1c38",
-    measurementId: "G-S8CM6JDFWB"
+    apiKey: "AIzaSyDKJVfGO5c-Sbg1uSfpBsrSTi-1Yw5muQY",
+    authDomain: "binge3-50151.firebaseapp.com",
+    projectId: "binge3-50151",
+    storageBucket: "binge3-50151.appspot.com",
+    messagingSenderId: "406765233025",
+    appId: "1:406765233025:web:ca4e478c9be54669087e80",
+    measurementId: "G-0LY9QY6VKB"
   };
 
   const app = initializeApp(firebaseConfig)
